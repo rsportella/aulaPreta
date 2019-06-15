@@ -79,7 +79,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Olá mundos
+                    Olá mundo
                 </div>
             </div>
         </div>
