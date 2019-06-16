@@ -79,8 +79,9 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    ME Moldura<br><small>A moldura perfeita</small>
+                    ME Moldura<br>
                 </div>
+				<label>A moldura perfeita</label>
             </div>
         </div>
     </body>
