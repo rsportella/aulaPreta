@@ -1,1 +1,1 @@
-RewriteRule ^(.*)$ http://localhost/public/$1 [R=301,L]
+RewriteRule ^(.*)$ http://memoldura.com.br/public/$1 [R=301,L]
