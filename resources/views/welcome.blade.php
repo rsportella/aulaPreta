@@ -81,7 +81,7 @@
                 <div class="title m-b-md">
                     ME Moldura<br>
                 </div>
-				<label>A moldura perfeita</label>
+				<h4>A moldura perfeita</h4>
             </div>
         </div>
     </body>
