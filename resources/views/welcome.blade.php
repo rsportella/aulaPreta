@@ -79,7 +79,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    ME Moldura<br><small style="font-size: 30%; color: red">A moldura perfeita</small>
+                    ME Moldura<br><small style="font-size: 30%; color: blue">A moldura perfeita</small>
                 </div>
             </div>
         </div>
