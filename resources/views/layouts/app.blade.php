@@ -30,14 +30,17 @@
 
                 <!-- Branding Image -->
                 <a class="navbar-brand" href="{{ url('/') }}">
-                    {{ config('app.name', 'Laravel') }}
+                    {{ config('app.name') }}
                 </a>
             </div>
 
             <div class="collapse navbar-collapse" id="app-navbar-collapse">
                 <!-- Left Side Of Navbar -->
                 <ul class="nav navbar-nav">
-                    &nbsp;
+                    @if (!Auth::guest())
+                        <li><a href="{{ url('/home') }}">Dashbord</a></li>
+                        <li><a href="{{ url('/temas') }}">Temas</a></li>
+                    @endif
                 </ul>
 
                 <!-- Right Side Of Navbar -->

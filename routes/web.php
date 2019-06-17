@@ -17,4 +17,8 @@ Route::get('/', function () {
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('home', 'HomeController@index')->name('home');
+
+Route::get('temas', 'TemasController@index')->name('temas');
+Route::get('temas.novo', 'TemasController@novo')->name('novo');
+Route::post('temas.salvar', 'TemasController@salvar')->name('salvar');
