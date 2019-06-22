@@ -17,7 +17,7 @@ class CreateServicosTable extends Migration
             $table->increments('id')->unsigned()->unique();
 
             $table->integer('empresa')->unsigned();
-            $table->foreign('empresa')->references('id')->on('empresa');
+            $table->foreign('empresa')->references('id')->on('empresas');
 
             $table->string('titulo', '100');
             $table->string('descricao', '100')->nullable(true);

@@ -23,7 +23,7 @@ class CreateEmpresasTable extends Migration
             $table->integer('seq_nota');
 
             $table->integer('cidade')->unsigned();
-            $table->foreign('cidade')->references('id')->on('cidade');
+            $table->foreign('cidade')->references('id')->on('cidades');
 
             $table->integer('titular')->unsigned();
             $table->foreign('titular')->references('id')->on('pessoas');
