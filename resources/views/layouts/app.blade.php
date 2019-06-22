@@ -39,7 +39,7 @@
                 <ul class="nav navbar-nav">
                     @if (!Auth::guest())
                         <li><a href="{{ url('/home') }}">Dashbord</a></li>
-                        <li><a href="{{ url('/temas') }}">Temas</a></li>
+                        <li><a href="{{ url('/servico') }}">Servicos</a></li>
                     @endif
                 </ul>
 

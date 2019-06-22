@@ -19,6 +19,11 @@ Auth::routes();
 
 Route::get('home', 'HomeController@index')->name('home');
 
-Route::get('temas', 'TemasController@index')->name('temas');
-Route::get('temas.novo', 'TemasController@novo')->name('novo');
-Route::post('temas.salvar', 'TemasController@salvar')->name('salvar');
+Route::get('servico', 'ServicoController@index')->name('servico');
+Route::get('servico/novo', 'ServicoController@novo')->name('novo');
+Route::get('servico/{servico}/editar', 'ServicoController@editar')->name('editar');
+Route::get('servico/{servico}/excluir', 'ServicoController@excluir')->name('excluir');
+Route::post('servico/salvar', 'ServicoController@salvar')->name('salvar');
+Route::patch('servico/{servico}', 'ServicoController@atualizar')->name('atualizar');
+
+
