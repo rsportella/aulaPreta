@@ -25,8 +25,7 @@ class CreateServicosTable extends Migration
 
             $table->softDeletes();
             $table->timestamps();
-        )
-        };
+        });
     }
 
     /**
