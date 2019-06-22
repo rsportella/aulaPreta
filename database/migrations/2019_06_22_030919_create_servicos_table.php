@@ -14,7 +14,7 @@ class CreateServicosTable extends Migration
     public function up()
     {
         Schema::create('servicos', function (Blueprint $table) {
-            $table->increments('id');
+            $table->increments('id')->unsigned()->unique();
 
             $table->integer('empresa')->unsigned();
             $table->foreign('empresa')->references('id')->on('empresa');
