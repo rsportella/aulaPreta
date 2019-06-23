@@ -13,7 +13,7 @@ class EmpresasTest extends TestCase
     public function testInserirEmpresa()
     {
         $empresa = Empresa::create([
-            'cod_crva' => '9999',
+            'cod_crva' => '000',
             'endereco' => '',
             'telefone' => '',
             'email' => '',
@@ -23,8 +23,8 @@ class EmpresasTest extends TestCase
             'titular' => 999,
             'coordenador' => 999,
         ]);
-        $this->assertDatabaseHas('empresas', ['cod_crva' => '999']);
+        $this->assertDatabaseHas('empresas', ['cod_crva' => '000']);
         $empresa->delete();
-        $this->assertDatabaseMissing('empresas', ['cod_crva' => '999']);
+        $this->assertDatabaseMissing('empresas', ['cod_crva' => '000']);
     }
 }
