@@ -1,35 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="" tests="9" assertions="15" failures="0" errors="0" time="4.553024">
-    <testsuite name="Feature" tests="8" assertions="14" failures="0" errors="0" time="4.338663">
-      <testsuite name="Tests\Feature\CidadesTest" file="C:\wamp64\www\teste\tests\Feature\CidadesTest.php" tests="1" assertions="2" failures="0" errors="0" time="1.603871">
-        <testcase name="testInserirCidade" class="Tests\Feature\CidadesTest" file="C:\wamp64\www\teste\tests\Feature\CidadesTest.php" line="13" assertions="2" time="1.603871"/>
+  <testsuite name="" tests="15" assertions="20" failures="0" errors="0" time="7.192198">
+    <testsuite name="Feature" tests="14" assertions="19" failures="0" errors="0" time="6.929032">
+      <testsuite name="Tests\Feature\CidadesTest" file="C:\wamp64\www\teste\tests\Feature\CidadesTest.php" tests="1" assertions="2" failures="0" errors="0" time="1.979611">
+        <testcase name="testInserirCidade" class="Tests\Feature\CidadesTest" file="C:\wamp64\www\teste\tests\Feature\CidadesTest.php" line="13" assertions="2" time="1.979611"/>
       </testsuite>
-      <testsuite name="Tests\Feature\EmpresasTest" file="C:\wamp64\www\teste\tests\Feature\EmpresasTest.php" tests="1" assertions="2" failures="0" errors="0" time="0.408661">
-        <testcase name="testInserirEmpresa" class="Tests\Feature\EmpresasTest" file="C:\wamp64\www\teste\tests\Feature\EmpresasTest.php" line="13" assertions="2" time="0.408661"/>
+      <testsuite name="Tests\Feature\EmpresasTest" file="C:\wamp64\www\teste\tests\Feature\EmpresasTest.php" tests="1" assertions="2" failures="0" errors="0" time="0.354716">
+        <testcase name="testInserirEmpresa" class="Tests\Feature\EmpresasTest" file="C:\wamp64\www\teste\tests\Feature\EmpresasTest.php" line="13" assertions="2" time="0.354716"/>
       </testsuite>
-      <testsuite name="Tests\Feature\EstadosTest" file="C:\wamp64\www\teste\tests\Feature\EstadosTest.php" tests="1" assertions="2" failures="0" errors="0" time="0.319596">
-        <testcase name="testInserirEstado" class="Tests\Feature\EstadosTest" file="C:\wamp64\www\teste\tests\Feature\EstadosTest.php" line="13" assertions="2" time="0.319596"/>
+      <testsuite name="Tests\Feature\EstadosTest" file="C:\wamp64\www\teste\tests\Feature\EstadosTest.php" tests="1" assertions="2" failures="0" errors="0" time="0.397495">
+        <testcase name="testInserirEstado" class="Tests\Feature\EstadosTest" file="C:\wamp64\www\teste\tests\Feature\EstadosTest.php" line="13" assertions="2" time="0.397495"/>
       </testsuite>
-      <testsuite name="Tests\Feature\ExampleTest" file="C:\wamp64\www\teste\tests\Feature\ExampleTest.php" tests="1" assertions="1" failures="0" errors="0" time="0.999195">
-        <testcase name="testBasicTest" class="Tests\Feature\ExampleTest" file="C:\wamp64\www\teste\tests\Feature\ExampleTest.php" line="17" assertions="1" time="0.999195"/>
+      <testsuite name="Tests\Feature\GeralTest" file="C:\wamp64\www\teste\tests\Feature\GeralTest.php" tests="6" assertions="6" failures="0" errors="0" time="2.735859">
+        <testcase name="testIndexAcessivel" class="Tests\Feature\GeralTest" file="C:\wamp64\www\teste\tests\Feature\GeralTest.php" line="14" assertions="1" time="1.075428"/>
+        <testcase name="testIndexConteudoValido" class="Tests\Feature\GeralTest" file="C:\wamp64\www\teste\tests\Feature\GeralTest.php" line="20" assertions="1" time="0.285775"/>
+        <testcase name="testIndexNaoContemPalavra" class="Tests\Feature\GeralTest" file="C:\wamp64\www\teste\tests\Feature\GeralTest.php" line="26" assertions="1" time="0.321115"/>
+        <testcase name="testLogin" class="Tests\Feature\GeralTest" file="C:\wamp64\www\teste\tests\Feature\GeralTest.php" line="32" assertions="2" time="0.459555"/>
+        <testcase name="testSessao" class="Tests\Feature\GeralTest" file="C:\wamp64\www\teste\tests\Feature\GeralTest.php" line="39" assertions="0" time="0.293513"/>
+        <testcase name="testPaginaNaoEncontrada" class="Tests\Feature\GeralTest" file="C:\wamp64\www\teste\tests\Feature\GeralTest.php" line="45" assertions="1" time="0.300473"/>
       </testsuite>
-      <testsuite name="Tests\Feature\PaisTest" file="C:\wamp64\www\teste\tests\Feature\PaisTest.php" tests="1" assertions="2" failures="0" errors="0" time="0.257027">
-        <testcase name="testInserirPais" class="Tests\Feature\PaisTest" file="C:\wamp64\www\teste\tests\Feature\PaisTest.php" line="14" assertions="2" time="0.257027"/>
+      <testsuite name="Tests\Feature\PaisTest" file="C:\wamp64\www\teste\tests\Feature\PaisTest.php" tests="2" assertions="2" failures="0" errors="0" time="0.562800">
+        <testcase name="testInserirPais" class="Tests\Feature\PaisTest" file="C:\wamp64\www\teste\tests\Feature\PaisTest.php" line="14" assertions="2" time="0.308330"/>
+        <testcase name="testePrimeiroPaisBr" class="Tests\Feature\PaisTest" file="C:\wamp64\www\teste\tests\Feature\PaisTest.php" line="25" assertions="0" time="0.254470"/>
       </testsuite>
-      <testsuite name="Tests\Feature\PessoasTest" file="C:\wamp64\www\teste\tests\Feature\PessoasTest.php" tests="1" assertions="2" failures="0" errors="0" time="0.262268">
-        <testcase name="testInserirProtocolo" class="Tests\Feature\PessoasTest" file="C:\wamp64\www\teste\tests\Feature\PessoasTest.php" line="13" assertions="2" time="0.262268"/>
+      <testsuite name="Tests\Feature\PessoasTest" file="C:\wamp64\www\teste\tests\Feature\PessoasTest.php" tests="1" assertions="2" failures="0" errors="0" time="0.310299">
+        <testcase name="testInserirProtocolo" class="Tests\Feature\PessoasTest" file="C:\wamp64\www\teste\tests\Feature\PessoasTest.php" line="13" assertions="2" time="0.310299"/>
       </testsuite>
-      <testsuite name="Tests\Feature\ProtocolosTest" file="C:\wamp64\www\teste\tests\Feature\ProtocolosTest.php" tests="1" assertions="2" failures="0" errors="0" time="0.258995">
-        <testcase name="testInserirProtocolo" class="Tests\Feature\ProtocolosTest" file="C:\wamp64\www\teste\tests\Feature\ProtocolosTest.php" line="13" assertions="2" time="0.258995"/>
+      <testsuite name="Tests\Feature\ProtocolosTest" file="C:\wamp64\www\teste\tests\Feature\ProtocolosTest.php" tests="1" assertions="2" failures="0" errors="0" time="0.280563">
+        <testcase name="testInserirProtocolo" class="Tests\Feature\ProtocolosTest" file="C:\wamp64\www\teste\tests\Feature\ProtocolosTest.php" line="13" assertions="2" time="0.280563"/>
       </testsuite>
-      <testsuite name="Tests\Feature\ServicosTest" file="C:\wamp64\www\teste\tests\Feature\ServicosTest.php" tests="1" assertions="1" failures="0" errors="0" time="0.229050">
-        <testcase name="testInserirServico" class="Tests\Feature\ServicosTest" file="C:\wamp64\www\teste\tests\Feature\ServicosTest.php" line="13" assertions="1" time="0.229050"/>
+      <testsuite name="Tests\Feature\ServicosTest" file="C:\wamp64\www\teste\tests\Feature\ServicosTest.php" tests="1" assertions="1" failures="0" errors="0" time="0.307689">
+        <testcase name="testInserirServico" class="Tests\Feature\ServicosTest" file="C:\wamp64\www\teste\tests\Feature\ServicosTest.php" line="13" assertions="1" time="0.307689"/>
       </testsuite>
     </testsuite>
-    <testsuite name="Unit" tests="1" assertions="1" failures="0" errors="0" time="0.214361">
-      <testsuite name="Tests\Unit\ExampleTest" file="C:\wamp64\www\teste\tests\Unit\ExampleTest.php" tests="1" assertions="1" failures="0" errors="0" time="0.214361">
-        <testcase name="testBasicTest" class="Tests\Unit\ExampleTest" file="C:\wamp64\www\teste\tests\Unit\ExampleTest.php" line="16" assertions="1" time="0.214361"/>
+    <testsuite name="Unit" tests="1" assertions="1" failures="0" errors="0" time="0.263166">
+      <testsuite name="Tests\Unit\ExampleTest" file="C:\wamp64\www\teste\tests\Unit\ExampleTest.php" tests="1" assertions="1" failures="0" errors="0" time="0.263166">
+        <testcase name="testBasicTest" class="Tests\Unit\ExampleTest" file="C:\wamp64\www\teste\tests\Unit\ExampleTest.php" line="16" assertions="1" time="0.263166"/>
       </testsuite>
     </testsuite>
   </testsuite>

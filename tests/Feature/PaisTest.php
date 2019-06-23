@@ -21,4 +21,9 @@ class PaisTest extends TestCase
         $pais->delete();
         $this->assertDatabaseMissing('pais',['sigla'=>'TT']);
     }
+
+    public function testePrimeiroPaisBr()
+    {
+
+    }
 }
