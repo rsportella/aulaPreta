@@ -18,6 +18,7 @@ class CreatePaisTable extends Migration
             $table->string('nome', '45');
             $table->string('sigla', '2');
             $table->softDeletes();
+            $table->timestamps();
         });
     }
 

@@ -25,8 +25,7 @@ class CreateServicosTable extends Migration
 
             $table->softDeletes();
             $table->timestamps();
-        )
-        };
+        });
     }
 
     /**
@@ -36,6 +35,6 @@ class CreateServicosTable extends Migration
      */
     public function down()
     {
-        //
+        Schema::dropIfExists('protocolos');
     }
 }

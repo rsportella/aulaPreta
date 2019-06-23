@@ -31,7 +31,6 @@ class CreateEmpresasTable extends Migration
             $table->integer('coordenador')->unsigned();
             $table->foreign('coordenador')->references('id')->on('pessoas');
 
-
             $table->softDeletes();
             $table->timestamps();
         });

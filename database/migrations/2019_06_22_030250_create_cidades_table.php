@@ -21,6 +21,7 @@ class CreateCidadesTable extends Migration
 
             $table->string('nome', '45');
             $table->softDeletes();
+            $table->timestamps();
         });
     }
 

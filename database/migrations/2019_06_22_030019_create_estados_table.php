@@ -22,6 +22,7 @@ class CreateEstadosTable extends Migration
             $table->string('nome', '45');
             $table->string('uf', '2');
             $table->softDeletes();
+            $table->timestamps();
         });
     }
 

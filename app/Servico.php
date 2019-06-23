@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Servico extends Model
 {
-    protected $fillable = [
+    public $fillable = [
         'empresa', 'titulo', 'valor',
     ];
 }

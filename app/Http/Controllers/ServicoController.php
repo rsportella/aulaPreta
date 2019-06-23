@@ -29,7 +29,7 @@ class ServicoController extends Controller
 
     public function excluir($id)
     {
-        $servico = servicos::findOrFail($id);
+        $servico = Servico::findOrFail($id);
         $servico->delete();
         \Session::flash("menssagem_sucesso", "Exclusão realizado com sucesso");
         return \Redirect::to('servico');
