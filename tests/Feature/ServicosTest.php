@@ -12,11 +12,13 @@ class ServicosTest extends TestCase
 {
     public function testInserirServico()
     {
-        Servico::created([
+        $servico = Servico::create([
             'empresa' => '999',
             'titulo' => 'Test PHPUNIT',
             'valor' => '99.99'
         ]);
-        $this->assertDatabaseHas('servicos',['empresa'=>'999']);
+        $this->assertDatabaseHas('servicos', ['empresa' => 999]);
+        $servico->delete();
+        $this->assertDatabaseMissing('servicos', ['empresa' => 9999]);
     }
 }
