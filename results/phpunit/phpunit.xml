@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="" tests="9" assertions="15" failures="0" errors="0" time="4.553024">
+    <testsuite name="Feature" tests="8" assertions="14" failures="0" errors="0" time="4.338663">
+      <testsuite name="Tests\Feature\CidadesTest" file="C:\wamp64\www\teste\tests\Feature\CidadesTest.php" tests="1" assertions="2" failures="0" errors="0" time="1.603871">
+        <testcase name="testInserirCidade" class="Tests\Feature\CidadesTest" file="C:\wamp64\www\teste\tests\Feature\CidadesTest.php" line="13" assertions="2" time="1.603871"/>
+      </testsuite>
+      <testsuite name="Tests\Feature\EmpresasTest" file="C:\wamp64\www\teste\tests\Feature\EmpresasTest.php" tests="1" assertions="2" failures="0" errors="0" time="0.408661">
+        <testcase name="testInserirEmpresa" class="Tests\Feature\EmpresasTest" file="C:\wamp64\www\teste\tests\Feature\EmpresasTest.php" line="13" assertions="2" time="0.408661"/>
+      </testsuite>
+      <testsuite name="Tests\Feature\EstadosTest" file="C:\wamp64\www\teste\tests\Feature\EstadosTest.php" tests="1" assertions="2" failures="0" errors="0" time="0.319596">
+        <testcase name="testInserirEstado" class="Tests\Feature\EstadosTest" file="C:\wamp64\www\teste\tests\Feature\EstadosTest.php" line="13" assertions="2" time="0.319596"/>
+      </testsuite>
+      <testsuite name="Tests\Feature\ExampleTest" file="C:\wamp64\www\teste\tests\Feature\ExampleTest.php" tests="1" assertions="1" failures="0" errors="0" time="0.999195">
+        <testcase name="testBasicTest" class="Tests\Feature\ExampleTest" file="C:\wamp64\www\teste\tests\Feature\ExampleTest.php" line="17" assertions="1" time="0.999195"/>
+      </testsuite>
+      <testsuite name="Tests\Feature\PaisTest" file="C:\wamp64\www\teste\tests\Feature\PaisTest.php" tests="1" assertions="2" failures="0" errors="0" time="0.257027">
+        <testcase name="testInserirPais" class="Tests\Feature\PaisTest" file="C:\wamp64\www\teste\tests\Feature\PaisTest.php" line="14" assertions="2" time="0.257027"/>
+      </testsuite>
+      <testsuite name="Tests\Feature\PessoasTest" file="C:\wamp64\www\teste\tests\Feature\PessoasTest.php" tests="1" assertions="2" failures="0" errors="0" time="0.262268">
+        <testcase name="testInserirProtocolo" class="Tests\Feature\PessoasTest" file="C:\wamp64\www\teste\tests\Feature\PessoasTest.php" line="13" assertions="2" time="0.262268"/>
+      </testsuite>
+      <testsuite name="Tests\Feature\ProtocolosTest" file="C:\wamp64\www\teste\tests\Feature\ProtocolosTest.php" tests="1" assertions="2" failures="0" errors="0" time="0.258995">
+        <testcase name="testInserirProtocolo" class="Tests\Feature\ProtocolosTest" file="C:\wamp64\www\teste\tests\Feature\ProtocolosTest.php" line="13" assertions="2" time="0.258995"/>
+      </testsuite>
+      <testsuite name="Tests\Feature\ServicosTest" file="C:\wamp64\www\teste\tests\Feature\ServicosTest.php" tests="1" assertions="1" failures="0" errors="0" time="0.229050">
+        <testcase name="testInserirServico" class="Tests\Feature\ServicosTest" file="C:\wamp64\www\teste\tests\Feature\ServicosTest.php" line="13" assertions="1" time="0.229050"/>
+      </testsuite>
+    </testsuite>
+    <testsuite name="Unit" tests="1" assertions="1" failures="0" errors="0" time="0.214361">
+      <testsuite name="Tests\Unit\ExampleTest" file="C:\wamp64\www\teste\tests\Unit\ExampleTest.php" tests="1" assertions="1" failures="0" errors="0" time="0.214361">
+        <testcase name="testBasicTest" class="Tests\Unit\ExampleTest" file="C:\wamp64\www\teste\tests\Unit\ExampleTest.php" line="16" assertions="1" time="0.214361"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>
