@@ -12,9 +12,9 @@ class CidadesTableSeeder extends Seeder
     public function run()
     {
         $table = 'cidades';
-        
+
         DB::table($table)->delete();
-        DB::table($table)->insert(
+        DB::table($table)->insert([
             ['estado' => 1, 'nome' => 'Acrelândia'],
             ['estado' => 1, 'nome' => 'Assis Brasil'],
             ['estado' => 1, 'nome' => 'Brasiléia'],
@@ -5525,7 +5525,6 @@ class CidadesTableSeeder extends Seeder
             ['estado' => 21, 'nome' => 'Westfalia'],
             ['estado' => 21, 'nome' => 'Westfalia'],
             ['estado' => 21, 'nome' => 'Forquetinha']
-
-        );
+        ]);
     }
 }
