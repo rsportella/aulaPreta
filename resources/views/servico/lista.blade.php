@@ -32,7 +32,7 @@
                                     <td>
                                         <div class="btn-group" role="group" aria-label="Third group">
                                             <a class="btn btn-danger" href="/servico/{{$servico->id}}/excluir"> Excluir</a>
-                                            <a class="btn btn-primary" href="/servico/{{$servico->id}}/editar"> Editar</a>
+                                            <a class="btn btn-success" href="/servico/{{$servico->id}}/editar"> Editar</a>
                                         </div>
                                     </td>
                                 </tr>
