@@ -23,8 +23,8 @@ class EmpresasTest extends TestCase
             'titular' => 999,
             'coordenador' => 999,
         ]);
-        $this->assertDatabaseHas('empresas', ['cod_crva' => '9999']);
+        $this->assertDatabaseHas('empresas', ['cod_crva' => '999']);
         $empresa->delete();
-        $this->assertDatabaseMissing('empresas', ['cod_crva' => '9999']);
+        $this->assertDatabaseMissing('empresas', ['cod_crva' => '999']);
     }
 }
