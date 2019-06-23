@@ -11,7 +11,10 @@ class ServicosTableSeeder extends Seeder
      */
     public function run()
     {
-        DB::table('servicos')->insert(
+        $table = 'servicos';
+
+        DB::table($table)->delete();
+        DB::table($table)->insert(
             [
                 'empresa' => 999,
                 'titulo' => 'Certidão de registro de veículo automotor',

@@ -11,9 +11,11 @@ class PaisTableSeeder extends Seeder
      */
     public function run()
     {
-        DB::table('pais')->insert([
-            'nome' => 'Brasil',
-            'sigla' => 'BR',
-        ]);
+        $table = 'pais';
+
+        DB::table($table)->delete();
+        DB::table($table)->insert(
+            ['nome' => 'Brasil', 'sigla' => 'BR']
+        );
     }
 }

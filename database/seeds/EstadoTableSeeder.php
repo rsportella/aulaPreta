@@ -11,7 +11,10 @@ class EstadoTableSeeder extends Seeder
      */
     public function run()
     {
-        DB::table('estados')->insert(
+        $table = 'estados';
+
+        DB::table($table)->delete();
+        DB::table($table)->insert(
             ['pais' => 1, 'Nome' => 'Acre', 'uf' => 'AC'],
             ['pais' => 1, 'Nome' => 'Alagoas', 'uf' => 'AL'],
             ['pais' => 1, 'Nome' => 'Amapá', 'uf' => 'AP'],

@@ -11,8 +11,8 @@ class EmpresasTableSeeder extends Seeder
      */
     public function run()
     {
-        DB::table('pessoas')->truncate();
-        DB::table('empresas')->truncate();
+        DB::table('pessoas')->delete();
+        DB::table('empresas')->delete();
         $pessoa =
             DB::table('pessoas')->insert(
                 [
