@@ -17,7 +17,7 @@ class CreateProtocolosTable extends Migration
             $table->increments('id');
 
             $table->integer('empresa')->unsigned();
-            $table->foreign('empresa')->references('id')->on('empresas');
+            $table->foreign('empresa')->references('id')->on('empresas')->onDelete('cascade');
 
             $table->string('titulo', '45');
             $table->string('descricao', '100');

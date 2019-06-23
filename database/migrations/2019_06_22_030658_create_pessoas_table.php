@@ -23,7 +23,7 @@ class CreatePessoasTable extends Migration
             $table->string('email', '50');
 
             $table->integer('cidade')->unsigned();
-            $table->foreign('cidade')->references('id')->on('cidades');
+            $table->foreign('cidade')->references('id')->on('cidades')->onDelete('cascade');
 
             $table->string('endereco', '100')->nullable(true);
             $table->string('numero', '20')->nullable(true);

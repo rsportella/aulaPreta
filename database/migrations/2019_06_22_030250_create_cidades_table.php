@@ -17,7 +17,7 @@ class CreateCidadesTable extends Migration
             $table->increments('id');
 
             $table->integer('estado')->unsigned();
-            $table->foreign('estado')->references('id')->on('estados');
+            $table->foreign('estado')->references('id')->on('estados')->onDelete('cascade');
 
             $table->string('nome', '45');
             $table->softDeletes();

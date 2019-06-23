@@ -23,13 +23,13 @@ class CreateEmpresasTable extends Migration
             $table->integer('seq_nota');
 
             $table->integer('cidade')->unsigned();
-            $table->foreign('cidade')->references('id')->on('cidades');
+            $table->foreign('cidade')->references('id')->on('cidades')->onDelete('cascade');
 
             $table->integer('titular')->unsigned();
-            $table->foreign('titular')->references('id')->on('pessoas');
+            $table->foreign('titular')->references('id')->on('pessoas')->onDelete('cascade');
 
             $table->integer('coordenador')->unsigned();
-            $table->foreign('coordenador')->references('id')->on('pessoas');
+            $table->foreign('coordenador')->references('id')->on('pessoas')->onDelete('cascade');
 
             $table->softDeletes();
             $table->timestamps();
