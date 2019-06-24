@@ -35,6 +35,6 @@ class CreateServicosTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('protocolos');
+        Schema::dropIfExists('servicos');
     }
 }
