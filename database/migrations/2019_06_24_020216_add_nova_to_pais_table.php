@@ -9,7 +9,7 @@ class AddNovaToPaisTable extends Migration
     public function up()
     {
         Schema::table('pais', function (Blueprint $table) {
-            $table->string('nova');
+            $table->string('nova')->default('Teste');
         });
     }
 
