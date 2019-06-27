@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateServicosTable extends Migration
+class CreateTableCategoria extends Migration
 {
     /**
      * Run the migrations.
@@ -13,19 +13,11 @@ class CreateServicosTable extends Migration
      */
     public function up()
     {
-        Schema::create('servicos', function (Blueprint $table) {
+        Schema::create('categoria', function (Blueprint $table) {
             $table->increments('id')->unsigned()->unique();
-
-            $table->integer('empresa')->unsigned();
-            $table->foreign('empresa')->references('id')->on('empresas')->onDelete('cascade');
-
             $table->string('titulo', '100');
-            $table->string('descricao', '100')->nullable(true);
-            $table->double('valor', 8, 2);
-
-            $table->softDeletes();
-            $table->timestamps();
         });
+
     }
 
     /**
@@ -35,5 +27,6 @@ class CreateServicosTable extends Migration
      */
     public function down()
     {
+        //
     }
 }

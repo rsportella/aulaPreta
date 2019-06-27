@@ -5,7 +5,7 @@
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
                 <div class="panel panel-default">
-                    <div class="panel-heading">Servicos
+                    <div class="panel-heading">Servicos do sistema
                         <a class="pull-right" href="{{url('servico')}}">Listar</a>
                     </div>
                     <div class="panel-body">
@@ -24,7 +24,7 @@
                         {{Form::input("text", "titulo", null, ["class" => "form-control", "autofocus"])}}
                         {{Form::input("text", "valor", null, ["class" => "form-control"])}}
                         {{Form::input("text", "empresa", null, ["class" => "form-control"])}}
-                        {{Form::submit("Salvar", ["class" => "btn btn-primary"])}}
+                        {{Form::submit("Guardar", ["class" => "btn btn-primary"])}}
                         {{Form::close()}}
                     </div>
                 </div>
