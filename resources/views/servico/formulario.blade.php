@@ -23,6 +23,7 @@
 
                         {{Form::input("text", "titulo", null, ["class" => "form-control", "autofocus"])}}
                         {{Form::input("text", "valor", null, ["class" => "form-control"])}}
+                        {{Form::input("text", "empresa", null, ["class" => "form-control"])}}
                         {{Form::submit("Salvar", ["class" => "btn btn-primary"])}}
                         {{Form::close()}}
                     </div>
